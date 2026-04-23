@@ -1,0 +1,16 @@
+{
+  "name": "Группа 1 — Москва 25-45",
+  "ad_plan_id": 0,
+  "autobidding_mode": "max_shows",
+  "max_price": "50",
+  "budget_limit_day": "500",
+  "age_restrictions": "0+",
+  "targetings": {
+    "age": {"age_list": [25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45]},
+    "sex": ["female", "male"],
+    "geo": {"regions": [15]},
+    "remarketing_groups_not": [],
+    "remarketing_groups": [],
+    "interests_soc_dem": []
+  }
+}

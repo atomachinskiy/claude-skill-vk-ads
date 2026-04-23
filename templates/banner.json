@@ -1,0 +1,13 @@
+{
+  "ad_group_id": 0,
+  "name": "Баннер 1 — универсальная запись",
+  "urls": [{"url": "https://example.com/?utm_source=vk_ads"}],
+  "textblocks": {
+    "title_25": {"text": "Заголовок до 25 символов"},
+    "text_90": {"text": "Текст до 90 символов, цепляет боль и решение."}
+  },
+  "content": {
+    "image_240x400": {"id": 0}
+  },
+  "call_to_action": "open_site"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Имя клиента (показывается в логах и отчётах)",
+  "account_manager": "ФИО менеджера на стороне клиента",
+  "niche": "Краткое описание ниши",
+  "spreadsheet_id": "GOOGLE_SHEETS_ID",
+  "spreadsheet_url": "https://docs.google.com/spreadsheets/d/GOOGLE_SHEETS_ID/edit",
+  "template_sheet_name": "Имя листа-шаблона (например 'Февраль 26')",
+  "sheet_name_style": "short26",
+  "cells": {
+    "spent": "C",
+    "shows": "D",
+    "clicks": "E",
+    "goals": "J"
+  },
+  "row_to_ad_group": {
+    "2": 100000001,
+    "3": 100000002
+  },
+  "totals": [
+    {"row": 9, "range": [2, 8]}
+  ],
+  "custom_formulas": [
+    {
+      "row": 24,
+      "exprs": {
+        "spent":  "=C9+C15+C22",
+        "shows":  "=D9+D15+D22",
+        "clicks": "=E9+E15+E22",
+        "goals":  "=J9+J15+J22"
+      }
+    }
+  ],
+  "clear_on_create": [
+    "C2:E2", "J2"
+  ],
+  "notes": [
+    "Любые человеко-читаемые заметки про специфику клиента, которые скрипт игнорирует, но тебе/ИИ полезны при работе.",
+    "Например — какая колонка заполняется руками, какие строки не относятся к VK Ads, маппинг секций sheet → ad_plan_id и тд."
+  ]
+}

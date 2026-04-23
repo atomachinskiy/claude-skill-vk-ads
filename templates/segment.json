@@ -1,0 +1,12 @@
+{
+  "name": "Сегмент — посетители сайта 30 дней",
+  "pass_condition": 1,
+  "logic_type": "or",
+  "relations": [
+    {
+      "object_type": "remarketing_counter",
+      "params": {"type": "positive", "left": 0, "right": 30},
+      "object_id": 0
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+clients/*.json
+!clients/.gitkeep
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.venv/
+.env
+*.env
