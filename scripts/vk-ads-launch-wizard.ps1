@@ -1,4 +1,4 @@
-# vk-ads-launch-wizard.ps1 - Spawn separate PowerShell window running
+﻿# vk-ads-launch-wizard.ps1 - Spawn separate PowerShell window running
 # vk-ads-oauth-setup.ps1. Used on Windows so VK_ADS_CLIENT_SECRET never
 # enters the AI assistant's transcript.
 #

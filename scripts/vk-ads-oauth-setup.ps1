@@ -1,4 +1,4 @@
-# vk-ads-oauth-setup.ps1 - Native PowerShell wizard for VK Ads (ads.vk.com) setup.
+﻿# vk-ads-oauth-setup.ps1 - Native PowerShell wizard for VK Ads (ads.vk.com) setup.
 # Runs in a separate PowerShell window opened by vk-ads-launch-wizard.ps1.
 # AI assistant must NOT call this script directly via Bash tool - it would
 # capture stdin prompts where user types VK_ADS_CLIENT_SECRET.
